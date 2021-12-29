@@ -1,0 +1,49 @@
+html{
+    box-sizing: border-box;
+}
+
+*,*::before, *::after{
+    box-sizing: inherit;
+}
+
+a{
+    text-decoration: none !important;
+    color: inherit;
+    font-weight: inherit;
+    &:hover{
+        text-decoration: underline;
+        color: inherit;
+    }
+    
+}
+p{
+    font-weight: inherit;
+    margin: 0;
+    margin-bottom: 0;
+
+}
+
+ul,
+li{
+    margin: 0;
+    padding: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    margin: 0;
+    font-size: inherit;
+    font-weight: inherit;
+}
+
+.container{
+    
+}
+
+body{
+    
+}
